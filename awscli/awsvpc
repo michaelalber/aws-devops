@@ -1,0 +1,39 @@
+#!/usr/bin/env bash
+
+# Michael K. Alber <michael@interactplatform.com>
+
+# Amazon Virtual Private Cloud (Amazon VPC) lets you provision a logically
+# isolated section of the AWS Cloud where you can launch AWS resources in a
+# virtual network that you define.
+
+# Based on a template by BASH3 Boilerplate v2.3.0
+# http://bash3boilerplate.sh/#authors
+
+# Exit on error. Append "|| true" if you expect an error.
+set -o errexit
+# Exit on error inside any functions or subshells.
+set -o errtrace
+# Do not allow use of undefined vars. Use ${VAR:-} to use an undefined VAR
+set -o nounset
+# Catch the error in case mysqldump fails (but gzip succeeds) in `mysqldump |gzip`
+set -o pipefail
+# Turn on traces, useful while debugging but commented out by default
+# set -o xtrace
+
+
+# --profile myprofile1
+
+# Create VPC
+
+
+# Create Subnet
+## Public
+
+## Private
+
+# Internet Gateways
+
+## Attach to VPC
+
+
+# Create Route Table
